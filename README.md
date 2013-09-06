@@ -6,15 +6,21 @@ Devise strategy for use with your Rails engine.
 
 Add this line to your application's Gemfile:
 
-    gem 'devise-dummy_authenticable'
+```sh
+gem 'devise-dummy_authenticable'
+```
 
 And then execute:
 
-    $ bundle
+```sh
+$ bundle
+```
 
 Or install it yourself as:
 
-    $ gem install devise-dummy_authenticable
+```sh
+$ gem install devise-dummy_authenticable
+```
 
 ## Contributing
 
