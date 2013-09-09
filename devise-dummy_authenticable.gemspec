@@ -1,10 +1,6 @@
-lib = File.expand_path('../lib', __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'devise/dummy_authenticable/version'
-
 Gem::Specification.new do |spec|
   spec.name        = 'devise-dummy_authenticable'
-  spec.version     = Devise::DummyAuthenticable::Version::STRING
+  spec.version     = '0.0.1'
   spec.authors     = ['Andrew Garner', 'Gareth Visagie']
   spec.email       = ['Andrew.Garner@moneyadviceservice.org.uk',
                       'Gareth.Visagie@moneyadviceservice.org.uk']
