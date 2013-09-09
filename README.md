@@ -22,6 +22,16 @@ Or install it yourself as:
 $ gem install devise-dummy_authenticable
 ```
 
+## Usage
+
+Add the `dummy_authenticatable` module to your model:
+
+```ruby
+class User < ActiveRecord::Base
+  devise :dummy_authenticatable
+end
+```
+
 ## Contributing
 
 1. Fork it
